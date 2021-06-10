@@ -1,5 +1,7 @@
 # TOP-5 List of the day Android Studio App
- Finished
+
+Purpose of this app development was to initialize customer requirments of finding things to do at home. This app allows to analyze top 5 list of the day for movies, music and games from Firebase database, based on customer feedback on favorites around the world for movies, music, and games.  
+ 
  
  
 Android Studio Application (Kotlin)
