@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/aa">
+
+
+    <fragment
+        android:id="@+id/aa"
+        android:name="com.example.bottom.fragmentsgenre.action"
+        android:label="Action"
+        tools:layout="@layout/fragment_action" />
+    <fragment
+        android:id="@+id/c"
+        android:name="com.example.bottom.fragmentsgenre.comedy"
+        android:label="Comedy"
+        tools:layout="@layout/fragment_comedy" />
+    <fragment
+        android:id="@+id/d"
+        android:name="com.example.bottom.fragmentsgenre.drama"
+        android:label="Drama"
+        tools:layout="@layout/fragment_drama" />
+    <fragment
+        android:id="@+id/h"
+        android:name="com.example.bottom.fragmentsgenre.horror"
+        android:label="Horror"
+        tools:layout="@layout/fragment_horror" />
+    <fragment
+        android:id="@+id/r"
+        android:name="com.example.bottom.fragmentsgenre.romance"
+        android:label="Romance"
+        tools:layout="@layout/fragment_romance" />
+    <fragment
+        android:id="@+id/sf"
+        android:name="com.example.bottom.fragmentsgenre.sf"
+        android:label="SF"
+        tools:layout="@layout/fragment_sf" />
+</navigation>

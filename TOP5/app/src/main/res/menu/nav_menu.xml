@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/aa"
+        android:title="Action &amp; Adventure"
+        />
+
+    <item
+        android:id="@+id/c"
+        android:title="Comedy"
+        />
+
+    <item
+        android:id="@+id/d"
+        android:title="Drama"
+        />
+
+    <item
+        android:id="@+id/h"
+        android:title="Horror"
+        />
+
+    <item
+        android:id="@+id/sf"
+        android:title="Sci-fi"
+        />
+
+    <item
+        android:id="@+id/r"
+        android:title="ROMANCE"
+        />
+
+
+
+</menu>
